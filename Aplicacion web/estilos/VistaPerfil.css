@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+#logo{
+	float: left;
+}
+#menu {
+	padding-top: 2%;
+}
+
+.perfilFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+#campos{
+	
+	margin-left: 4%;
+	font-size: x-large;
+	margin-top: 2%;
+	float: left;
+}
+#Perfil{
+	position: fixed;
+	margin-top: 16%;
+	margin-left:0%;
+}
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+#datos{
+	float: left;
+	width: 15%;
+	margin-top: 2%;
+	margin-left: 6%;
+	font-size: x-large;
+}
+
+legend {
+	text-decoration: underline;
+}
+#datoDireccion{
+}
+#datoTelefono1, #barraTelefono{
+	float: left;
+}
+
+#barraTelefono{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#contrasena{
+	clear: left;
+}
+
+.datoDireccion, .datoCorreoElectronico{
+	width: 100%;
+}
+
+input{
+	height: 23px;
+}
+
+
+form{
+	font-size: large;
+}
+
+#camposContrasena{
+	float: left;
+}
+
+#datosContrasena{
+	float: left;
+	margin-left: 1%;
+}
+
+#datosContrasena div{
+	margin-bottom: 1%;
+}
+
+#submit{
+	margin-top: 1%;
+	text-align: center;
+}
+
+.submit{
+	width: 120px;
+	height: 50px;
+	font-size: large;
+}
+button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}

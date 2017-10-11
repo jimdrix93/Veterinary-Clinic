@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#cerrarSesion {
+	float: right;
+}
+
+#botonCerrarSesion, #botones button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+
+#menu {
+	padding-top: 2%;
+}
+
+#menu table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+}
+
+#menu th, #menu td {
+	width: 10%;
+}
+
+.mensajesFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#botones{
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 2%;
+}
+
+#botones button{
+	width: 100%;
+}
+
+#tablaMensajes{
+	margin-top: 2%;
+	margin-right: 2%;
+}
+
+#tablaMensajes table{
+	width: 82%;
+	text-align: left;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.51);
+}

@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+#cerrarSesion {
+	float: right;
+}
+#botonCerrarSesion, .botonFiltrar{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+#menu {
+	padding-top: 2%;
+}
+
+#menu table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+}
+
+#menu th, #menu td {
+	width: 10%;
+}
+
+.administracionFondo {
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#tablaBajaCliente{
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+#tablaBajaCliente table {
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.51);
+	text-align: center;
+	width: 100%;
+}
+
+#tablaBajaCliente th, #tablaBajaCliente td {
+	text-align: left;
+}
+
+#filtrosBajaCliente{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 40%;
+	margin-left: 30%;
+}
+
+#filtrar {
+	margin-left: 38%;
+}
+
+#campos {
+	margin-left: 5%;
+	float: left;
+}
+
+#campoTablaEliminar, #botonTablaEliminar{
+	width: 1%;
+}
+
+#botonTablaEliminar a{
+	padding-left: 45%;
+}

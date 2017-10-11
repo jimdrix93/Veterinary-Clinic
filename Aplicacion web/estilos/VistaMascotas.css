@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+#logo{
+	float: left;
+}
+#menu {
+	padding-top: 2%;
+}
+
+.mascotasFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+#logo{
+	float: left;
+}
+#AgregarMascota{
+	position: fixed;
+	margin-top: 1%;
+	margin-left: 55%;
+	width: 50%;
+}
+#campos{
+	float: left;
+	
+}
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+#Mascotas{
+	position:fixed;
+	margin-top: 1%;
+	margin-left: 0%;
+	width: 25%;
+}
+fieldset {
+	border-style: solid;
+	border-color: black;
+	width: 75%;
+}
+legend {
+	text-decoration: underline;
+}
+

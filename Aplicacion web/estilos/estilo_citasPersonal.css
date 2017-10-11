@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+#cerrarSesion {
+	float: right;
+}
+
+#botonesCita button, .botonFiltrar, #botonCerrarSesion{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+#menu {
+	padding-top: 2%;
+}
+
+#menu table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+}
+
+#menu th, #menu td {
+	width: 10%;
+}
+
+.citasFondo {
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#tablaCitas {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+#tablaCitas table {
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.51);
+	text-align: center;
+	width: 100%;
+}
+
+#tablaCitas th, #tablaCitas td {
+	text-align: left;
+	width: 10%;
+}
+
+#filtrosCitas, #botonesCita {
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#filtrosCitas {
+	width: 40%;
+	margin-left: 5%;
+}
+
+#filtrar {
+	margin-left: 39%;
+}
+
+#campos {
+	margin-left: 5%;
+	float: left;
+}
+
+#botonesCita {
+	margin-left: 25%;
+}
+
+#botonesCita button {
+	width: 100%;
+}
+

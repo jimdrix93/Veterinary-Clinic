@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+fieldset {
+	border-style: solid;
+	border-color: black;
+	width: 35%;
+}
+legend {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+#logo{
+	float: left;
+}
+#menu {
+	padding-top: 2%;
+}
+
+.citasFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#tablemenu {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+#pedirCita button{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#tablaCitas {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+#tablaCitas table {
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.51);
+	text-align: center;
+	width: 100%;
+}
+

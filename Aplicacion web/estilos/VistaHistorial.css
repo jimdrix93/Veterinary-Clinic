@@ -1,0 +1,150 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+#logo{
+	float: left;
+}
+#menu {
+	padding-top: 2%;
+}
+
+.mascotasFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+#logo{
+	float: left;
+}
+#AgregarMascota{
+	position: fixed;
+	margin-top: 1%;
+	margin-left: 55%;
+}
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+#Mascotas{
+	position:fixed;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+#tablaHistorial {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+#tablaHistorial table {
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.51);
+	text-align: center;
+	width: 100%;
+}
+
+#tablaHistorial th, #tablaHistorial td{
+	text-align:left;
+	width: 10%;
+}
+
+
+	
+.tg {
+	
+	border-collapse: collapse;
+	
+	border-spacing: 0;
+	
+}
+	
+.tg td {
+	
+font-family: Arial, sans-serif;
+	
+font-size: 14px;
+	
+padding: 10px 5px;
+	
+border-style: solid;
+	
+border-width: 1px;
+	
+overflow: hidden;
+	
+word-break: normal;
+	
+}
+	
+.tg th {
+	
+font-family: Arial, sans-serif;
+	
+font-size: 14px;
+	
+font-weight: normal;
+	
+padding: 10px 5px;
+	
+border-style: solid;
+	
+border-width: 1px;
+	
+overflow: hidden;
+	
+word-break: normal;
+	
+}
+	
+.tg .tg-jlrw {
+8	
+	font-size: 16px;
+	
+	text-align: center
+	
+}
+	
+.tg .tg-4kyz {
+	
+font-size: 28px;
+	
+text-align: center
+	
+}

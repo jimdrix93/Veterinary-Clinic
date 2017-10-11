@@ -1,0 +1,96 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+
+#botonCerrarSesion button, #inputSubmit{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+#menu {
+	padding-top: 2%;
+}
+
+.citasFondo {
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+
+#camposMascota, #camposCita, #camposFechaHoraSintoma{
+	float: left;
+}
+
+#datosMascota{
+	margin-left: 26%;
+}
+
+#datosCita{
+	margin-left: 24%;
+}
+
+#datosFechaHoraSintoma{
+	margin-left: 15%;
+}
+
+#formAnadirCita2{
+	margin-left: 21%;
+	width: 58%;
+	margin-top: 1%;
+}
+
+#submit{
+	margin-left: 40%;
+	margin-top: 1%;
+}
+
+#inputSubmit{
+	width: 134px;
+	height: 50px;
+	font-size: large;
+}
+
+legend{
+	text-decoration: underline;
+}

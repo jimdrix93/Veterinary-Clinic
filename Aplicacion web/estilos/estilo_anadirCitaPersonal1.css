@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+
+#botonCerrarSesion button, #inputSubmitCliente{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+#menu {
+	padding-top: 2%;
+}
+
+.citasFondo {
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+
+#camposCliente{
+	float:left;
+	margin-left: 1%;
+}
+
+#datosCliente{
+	margin-left: 29%;
+}
+
+#submit{
+	margin-left: 14%;
+}
+
+#fieldsetCliente{
+	width: 49%;
+}
+
+#seleccionarCliente{
+	margin-left: 30%;
+	margin-top: 1%;
+}
+
+legend{
+	text-decoration: underline;
+}

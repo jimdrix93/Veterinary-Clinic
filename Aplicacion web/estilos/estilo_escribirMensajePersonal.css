@@ -1,0 +1,95 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+
+button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+#div_submit input{
+	width: 160px;
+	height: 50px;
+	font-size: large;
+}
+
+#div_submit{
+	margin-left: 1%;
+}
+
+#menu {
+	padding-top: 2%;
+}
+
+#menu table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+#menu th, #menu td {
+	width: 10%;
+}
+
+.mensajesFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#div_form{
+	margin-top: 1%;
+}
+
+legend{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+#label_asunto, #label_mensaje{
+	float: left;
+}
+
+#div_submit{
+	margin-top: 1%;
+}
+
+.inputMensaje{
+	width: 100%;
+}

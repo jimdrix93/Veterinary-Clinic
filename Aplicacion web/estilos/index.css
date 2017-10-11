@@ -1,0 +1,56 @@
+@font-face{
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+#error{
+	color: red;
+}
+
+#titulo {
+	text-align: center;
+}
+
+#fachada {
+	float: right;
+	margin-right: 3%;
+}
+
+#bienvenida {
+	text-align: left;
+	float: left;
+	width: 45%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#formulario {
+	float: left;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+#campos {
+	float: left;
+	text-align: right;
+}
+
+#datos {
+	float: right;
+	text-align: left;
+}
+
+#enviar {
+	float: left;
+}
+#acercaDe{
+	
+	margin-top: 25%;
+}
+

@@ -1,0 +1,127 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#cerrarSesion {
+	float: right;
+}
+
+#botonCerrarSesion{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+
+#menu {
+	padding-top: 2%;
+}
+
+#menu table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+}
+
+#menu th, #menu td {
+	width: 10%;
+}
+
+.facturasFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#tablaFacturas {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+
+#tablaFacturas table {
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.51);
+	text-align: center;
+	width: 100%;
+}
+
+#tablaFacturas th, #tablaFacturas td{
+	text-align:left;
+	width: 10%;
+}
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.tg td {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+}
+.tg th {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+}
+.tg .tg-jlrw {
+	font-size: 16px;
+	text-align: center
+}
+.tg .tg-4kyz {
+	font-size: 28px;
+	text-align: center
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+

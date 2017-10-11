@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#cerrarSesion {
+	float: right;
+}
+
+#botonCerrarSesion, #botonEditarPerfil button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+
+#menu {
+	padding-top: 2%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+}
+
+legend {
+	text-decoration: underline;
+}
+#datos {
+	margin-left: 48%;
+}
+#menu table {
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+#menu td {
+	width: 10%;
+}
+
+#perfil, #proximasCitas{
+	float: left;
+	width: 42%;
+	margin-left: 3%
+}
+
+#tablaProximasCitas{
+	width: 100%;
+}
+
+#perfil {
+	height: 1%;
+}
+
+#ultimosMensajes, #ultimasFacturas {
+	float: right;
+	width: 50%;
+	margin-right: 3%;
+}
+
+.inicioFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+#ultimasFacturas table{
+	text-align: left;
+}
+
+#botonEditarPerfil {
+	margin-top: 53%;
+}
+
+#campos {
+	float: left;
+}
+
+fieldset {
+	border-style: solid;
+	border-color: black;
+}

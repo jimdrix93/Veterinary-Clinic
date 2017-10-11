@@ -1,0 +1,41 @@
+	body{
+	background-image: url('../imagenes/fondo.gif')
+}
+
+table{
+	 width: 80%;
+
+}
+th, td {
+
+   text-align: center;
+   vertical-align: top;
+   
+
+  
+}
+
+#tabla1{
+	text-align: left;  
+		float: left;
+
+}
+
+#boton{
+	width: 330px;
+	margin: 0 auto;
+
+}
+
+#titulo{
+	font-size: 150%;
+	position:fixed;
+	margin-top:4%;
+	margin-left: 11%;
+}
+#titulo2{
+	font-size: 150%;
+	position:fixed;
+	margin-top: 6%;
+	margin-left: 15.6%;;
+}

@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "segoepr";
+	src: url('../fuentes/segoepr.ttf') format("truetype");
+}
+
+body {
+	background-image: url('../imagenes/fondo.gif');
+	font-family: segoepr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+}
+
+#bienvenida {
+	text-align: center;
+	padding-top: 1%;
+	padding-right: 10%;
+}
+
+#botonCerrarSesion {
+	float: right;
+}
+
+button{
+	font-family: segoepr;
+	background: rgba(255, 255, 255, 0.51);
+}
+
+
+#menu {
+	padding-top: 2%;
+}
+
+.perfilFondo{
+	background-color: rgba(153, 0, 0, 0.51);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: medium;
+	background-color: rgba(255, 255, 255, 0.51);
+	font-weight: bold;
+	font-size: larger;
+	font-variant: small-caps;
+	text-align: center;
+	border-style: solid;
+	border-width: thick;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10%;
+}
+
+#campos, #datos{
+	margin-top: 2%;
+	font-size: x-large;
+	float: left;
+}
+
+#campos{
+	margin-left: 5%;
+}
+
+#datos{
+	margin-left: 1%;
+}
+
+#datoTelefono1, #barraTelefono{
+	float: left;
+}
+
+#barraTelefono{
+	margin-left: 2%;
+	margin-right: 2%;
+}
